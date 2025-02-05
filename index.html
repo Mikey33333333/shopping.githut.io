@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="Shirt.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="Color.css">
+   <link rel="stylesheet" href="color/swiper-bundle.min.css">
+   <link rel="shortcut icon" href="https://i.pinimg.com/736x/55/97/a9/5597a9e2ad98912f550e2719cd673d6b.jpg" type="image/x-icon">
+</head>
+<body>
+
+   <div class="header" id="header">
+      <nav class="nav container">
+         <a href="Shirt.html" class="nav_logo">
+            <i class="bx bx-shopping-bag nav_logo-icon"></i>E-Shopper
+         </a>
+
+         <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+               <li class="nav_item">
+                  <a href="#" class="nav_link active-link">Home</a>
+               </li>
+
+               <li class="nav_item">
+                  <a href="#" class="nav_link">Shop</a>
+               </li>
+
+               <li class="nav_item">
+                  <a href="#" class="nav_link">Cart</a>
+               </li>
+
+
+               <li class="nav_item">
+                  <a href="#" class="nav_link">Blog</a>
+               </li>
+
+               <li class="nav_item">
+                  <a href="#" class="nav_link">Fag's</a>
+               </li>
+
+               <li class="nav_item">
+                  <a href="#" class="nav_link">Contect</a>
+               </li>
+
+            </ul>
+
+            <div class="nav_cloes" id="nav-close">
+               <i class="bx bx-x"></i>
+            </div>
+         </div>
+
+         <div class="nav_btns">
+            <div class="Login_toggle" id="Login-button">
+               <i class="bx bx-user"></i>
+            </div>
+
+            <div class="nav_shop" id="cart-shop">
+               <i class="bx bx-shopping-bag"></i>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+               <i class="bx bx-grid-alt"></i>
+            </div>
+         </div>
+      </nav>
+   </div>
+
+   <div class="cart" id="cart">
+      <i class="bx bx-x cart_close" id="cart-close"></i>
+
+      <h2 class="cart_title-center">My Cart</h2>
+
+      <div class="cart_container">
+         <article class="cart-card">
+            <div class="cart_box">
+               <img src="img/hodie.jpg" alt="" class="cart_img">
+            </div>
+
+            <div class="cart_details">
+               <h3 class="cart_title">Windbreaker</h3>
+               <span class="cart_price">$12</span>
+
+               <div class="cart_amount">
+                  <div class="cart_amount-content">
+                     <span class="cart_amount-box">
+                        <i class="bx bx-minus"></i>
+                     </span>
+
+                     <spna class="cart_amount-number">1</spna>
+
+                     <span class="cart_amount-box">
+                        <i class="bx bx-plus"></i>
+                     </span>
+                  </div>
+
+                  <i class="bx bx-trash-alt cart_amount-trash"></i>
+               </div>
+            </div>
+         </article>
+
+
+         <article class="cart-card">
+            <div class="cart_box">
+               <img src="img/hodie2.jpg" alt="" class="cart_img">
+            </div>
+
+            <div class="cart_details">
+               <h3 class="cart_title">Cardigan Hoodie</h3>
+               <span class="cart_price">$14</span>
+
+               <div class="cart_amount">
+                  <div class="cart_amount-content">
+                     <span class="cart_amount-box">
+                        <i class="bx bx-minus"></i>
+                     </span>
+
+                     <spna class="cart_amount-number">1</spna>
+
+                     <span class="cart_amount-box">
+                        <i class="bx bx-plus"></i>
+                     </span>
+                  </div>
+
+                  <i class="bx bx-trash-alt cart_amount-trash"></i>
+               </div>
+            </div>
+         </article>
+
+
+         <article class="cart-card">
+            <div class="cart_box">
+               <img src="img/hodie3.jpg" alt="" class="cart_img">
+            </div>
+
+            <div class="cart_details">
+               <h3 class="cart_title">Cartoom Hoodie</h3>
+               <span class="cart_price">$15</span>
+
+               <div class="cart_amount">
+                  <div class="cart_amount-content">
+                     <span class="cart_amount-box">
+                        <i class="bx bx-minus"></i>
+                     </span>
+
+                     <spna class="cart_amount-number">1</spna>
+
+                     <span class="cart_amount-box">
+                        <i class="bx bx-plus"></i>
+                     </span>
+                  </div>
+
+                  <i class="bx bx-trash-alt cart_amount-trash"></i>
+               </div>
+            </div>
+         </article>
+      </div>
+
+      <div class="cart_prices">
+         <span class="cart_prices-item">3 item</span>
+         <span class="cart_prices-tital">$42</span>
+      </div>
+   </div>
+
+   <div class="Login" id="Login">
+      <i class="bx bx-x Login_close" id="Login-close"></i>
+
+      <h2 class="Login_title-center">Login</h2>
+
+      <form action="" class="Login_form grid">
+         <div class="login_content">
+            <label for="" class="Login_label">Name</label>
+            <input type="text" class="Login_input">
+         </div>
+         <div class="login_content">
+            <label for="" class="Login_label">Email</label>
+            <input type="email" class="Login_input">
+         </div>
+
+         <div class="login_content">
+            <label for="" class="Login_label">Password</label>
+            <input type="password" class="Login_input">
+         </div>
+
+         <div>
+            <a href="#" class="button">Sign in</a>
+         </div>
+
+         <div>
+            <p class="signup">Not a number? <a href="Login.html">Sign in now</a></p>
+         </div>
+
+      </form>
+   </div>
+
+   <main class="main">
+      <section class="home container">
+         <div class="swiper homw-swiper">
+            <div class="swiper-wrapper">
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">The "Cardigan"</h4>
+                           <span class="home_detials-subtitle">Mikey</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#1 TRENDING ITEM</h3>
+                        <h1 class="home_title">ORIGINAL <br> IS NEVER <br> FINISHED!!</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt4.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">The "Cardigan"</h4>
+                           <span class="home_detials-subtitle">Mikey</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#2 TOP BEST DUO</h3>
+                        <h1 class="home_title">FALL<br> WINTER<br> 2025</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt3.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#3 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt4.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#4 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt5.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#5 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt6.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#6 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt7.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#7 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt8.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#8 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt9.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#9 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt10.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#10 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt11.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#11 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt12.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#12 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt13.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#13 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt14.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#14 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt15.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#15 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt15.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#15 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt16.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#16 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt17.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#17 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt18.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#18 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="home-content grid">
+                     <div class="home_groud">
+                        <img src="img shirt/shirt19.jpg" alt="" class="home_img">
+                        <div class="home_indicator"></div>
+
+                        <div class="home_details-img">
+                           <h4 class="home_details-title">Jurry</h4>
+                           <span class="home_detials-subtitle">Zipper</span>
+                        </div>
+                     </div>
+
+                     <div class="home_data">
+                        <h3 class="home_subtitle">#19 TRENDING ITEM</h3>
+                        <h1 class="home_title">SALE 20%<br>OFF ON<br> EVERYTHING</h1>
+                        <p class="home_description">A specialist label creating luxury essentials. 
+                           Ethically crafted with an unwavering commitment to exceptional quality.
+                        </p>
+
+                        <div class="home_buttons">
+                           <a href="#" class="button">Buy Now</a>
+                           <a href="#" class="button-link button-flex">view Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+
+      <section class="discount container section">
+         <div class="swiper homw-swiper">
+            <div class="swiper-wrapper">
+               <section class="swiper-slide">
+                  <div class="discount_container container grid">
+                     <img src="img-shitl-2/smar2.jpg" alt="" class="discount_img">
+
+                     <div class="discount_data">
+                        <h2 class="discount_title">50% Discount <br> On New Products</h2>
+                        <a href="#" class="button">Go to new</a>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="discount_container container grid">
+                     <img src="img-shitl-2/smar3.jpg" alt="" class="discount_img">
+
+                     <div class="discount_data">
+                        <h2 class="discount_title">50% Discount <br> On New Products</h2>
+                        <a href="#" class="button">Go to new</a>
+                     </div>
+                  </div>
+               </section>
+               <section class="swiper-slide">
+                  <div class="discount_container container grid">
+                     <img src="img-shitl-2/smar4.jpg" alt="" class="discount_img">
+
+                     <div class="discount_data">
+                        <h2 class="discount_title">50% Discount <br> On New Products</h2>
+                        <a href="#" class="button">Go to new</a>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </section>
+
+      <section class="new section">
+         <h2 class="section_title">New Arrivals</h2>
+         
+         <div class="nav_container container">
+            <div class="swiper new-swiper"> 
+               <div class="swiper-wrapper">
+                  <div class="new_content swiper-slide">
+                     <div class="new_tag">New</div>
+                     <img src="img shirt/shirt8.jpg" alt="" class="new_img">
+                     <h3 class="new_title">Windbreaker jacket</h3>
+                     <span class="new_subtitle">Accessory</span>
+
+                     <div class="new_prices">
+                        <span class="new_price">$14.99</span>
+                        <span class="new_discount">$29.99</span>
+                     </div>
+
+                     <a href="#" class="button new_button">
+                        <i class="bx bx-cart-alt new_icon"></i>
+                     </a>
+                  </div>
+
+                  <div class="new_content swiper-slide">
+                     <div class="new_tag">New</div>
+                     <img src="img shirt/shirt9.jpg" alt="" class="new_img">
+                     <h3 class="new_title">Windbreaker jacket</h3>
+                     <span class="new_subtitle">Accessory</span>
+
+                     <div class="new_prices">
+                        <span class="new_price">$14.99</span>
+                        <span class="new_discount">$29.99</span>
+                     </div>
+
+                     <a href="#" class="button new_button">
+                        <i class="bx bx-cart-alt new_icon"></i>
+                     </a>
+                  </div>
+
+                  <div class="new_content swiper-slide">
+                     <div class="new_tag">New</div>
+                     <img src="img shirt/shirt11.jpg" alt="" class="new_img">
+                     <h3 class="new_title">Windbreaker jacket</h3>
+                     <span class="new_subtitle">Accessory</span>
+
+                     <div class="new_prices">
+                        <span class="new_price">$14.99</span>
+                        <span class="new_discount">$29.99</span>
+                     </div>
+
+                     <a href="#" class="button new_button">
+                        <i class="bx bx-cart-alt new_icon"></i>
+                     </a>
+                  </div>
+
+                  <div class="new_content swiper-slide">
+                     <div class="new_tag">New</div>
+                     <img src="img shirt/shirt12.jpg" alt="" class="new_img">
+                     <h3 class="new_title">Windbreaker jacket</h3>
+                     <span class="new_subtitle">Accessory</span>
+
+                     <div class="new_prices">
+                        <span class="new_price">$14.99</span>
+                        <span class="new_discount">$29.99</span>
+                     </div>
+
+                     <a href="#" class="button new_button">
+                        <i class="bx bx-cart-alt new_icon"></i>
+                     </a>
+                  </div>
+
+                  <div class="new_content swiper-slide">
+                     <div class="new_tag">New</div>
+                     <img src="img shirt/shirt13.jpg" alt="" class="new_img">
+                     <h3 class="new_title">Windbreaker jacket</h3>
+                     <span class="new_subtitle">Accessory</span>
+
+                     <div class="new_prices">
+                        <span class="new_price">$14.99</span>
+                        <span class="new_discount">$29.99</span>
+                     </div>
+
+                     <a href="#" class="button new_button">
+                        <i class="bx bx-cart-alt new_icon"></i>
+                     </a>
+                  </div>
+
+                  <div class="new_content swiper-slide">
+                     <div class="new_tag">New</div>
+                     <img src="img shirt/shirt14.jpg" alt="" class="new_img">
+                     <h3 class="new_title">Windbreaker jacket</h3>
+                     <span class="new_subtitle">Accessory</span>
+
+                     <div class="new_prices">
+                        <span class="new_price">$14.99</span>
+                        <span class="new_discount">$29.99</span>
+                     </div>
+
+                     <a href="#" class="button new_button">
+                        <i class="bx bx-cart-alt new_icon"></i>
+                     </a>
+                  </div>
+                  
+               </div>
+            </div>
+            
+         </div>
+
+      </section>
+
+      <section class="container section" id="latest" >
+         <!-- heading -->
+   
+         <div class="latest-heading">
+            <h2 class="section_title">New Price $2 </h2>
+         </div>
+         <!-- container -->
+         <div class="post-container">
+   
+            <!-- post box 1-->
+            <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/1.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- post box 2-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/2.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 3-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/3.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 5-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/4.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 6-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/5.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 7-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/6.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 8-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/7.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 9-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/9.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 10-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/10.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 11-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/11.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 12-->
+             <div class="post-box">
+               <!-- img -->
+                <div class="post-img">
+                  <img src="img-shirt-one/12.jpg" alt="">
+                </div>
+   
+                <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            
+            <!-- post box 13-->
+             <div class="post-box">
+               <!-- img -->
+               <div class="post-img">
+                  <img src="img-shirt-one/13.jpg" alt="">
+               </div>
+   
+               <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 14-->
+             <div class="post-box">
+               <!-- img -->
+               <div class="post-img">
+                  <img src="img-shirt-one/14.jpg" alt="">
+               </div>
+   
+               <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 15-->
+             <div class="post-box">
+               <!-- img -->
+               <div class="post-img">
+                  <img src="img-shirt-one/15.jpg" alt="">
+               </div>
+   
+               <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 16-->
+             <div class="post-box">
+               <!-- img -->
+               <div class="post-img">
+                  <img src="img-shirt-one/16.jpg" alt="">
+               </div>
+   
+               <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            <!-- post box 17-->
+             <div class="post-box">
+               <!-- img -->
+               <div class="post-img">
+                  <img src="img-shirt-one/17.jpg" alt="">
+               </div>
+   
+               <div class="main-slider-text">
+                  <!-- quality -->
+                  <span class="quality">
+                     $2
+                  </span>
+      
+                  <div class="botton-text">
+                     <div class="movie-name">
+                        <span>2024</span>
+                        <a href="#">I have shrit for your <br>
+                        please buy one</a>
+                     </div>
+      
+                     <div class="categoty-rating">
+                        <div class="category">
+                           <a href="#">Shirt</a>,<a href="#">So cool</a>,<a href="#">$2</a>
+                        </div>
+      
+                        <!-- rating -->
+      
+                        <div class="rating">
+                           5.2 <img src="" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            
+         </div>
+   
+   
+         <!-- container end -->
+   
+   
+   
+   
+         <!-- page -number -->
+   
+         <div class="page-number">
+            <a href="#" class="page-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            ....
+            <a href="#">100</a>
+         </div>
+      </section>
+
+      <section class="steps section container">
+         <div class="steps_bg">
+            <h2 class="section_title">How to order products <br>from e-shopper</h2>
+
+            <div class="steps_container grid">
+               <!-- step card 1 -->
+               <div class="steps_card">
+                  <div class="steps_number">01</div>
+                  <div class="steps_card-title">Choose Products</div>
+                  <p class="steps_card-description">
+                     we have several varieties products you can choose from.
+                  </p>
+               </div>
+               <!-- step card 2 -->
+               <div class="steps_card">
+                  <div class="steps_number">02</div>
+                  <div class="steps_card-title">Pleace an order</div>
+                  <p class="steps_card-description">
+                     Once your order is set, we move to the next step which is the shipping.
+                  </p>
+               </div>
+               <!-- step card 3-->
+               <div class="steps_card">
+                  <div class="steps_number">03</div>
+                  <div class="steps_card-title">Get order delivered</div>
+                  <p class="steps_card-description">
+                     Our delivery process if easy, you receive the the order direct to you home
+                  </p>
+               </div>
+            </div>
+         </div>
+         
+      </section>
+
+      <section class="newsletter section">
+         <div class="newslitter_container container">
+            <h2 class="section_title">Our Newsletter</h2>
+            <p class="newsletter_description">
+               Promotion new products and sales. Directly to your inbox
+            </p>
+
+            <form action="" class="newsletter_form">
+               <input type="text" placeholder="Enter your email" class="newsletter_input">
+               <button class="button">Subscribe</button>
+            </form>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer section">
+      <div class="footer_container container grid">
+         <!-- footer content 1 -->
+         <div class="footer_contnt">
+            <a href="#" class="footer_logo">
+               <i class="bx bxs-shopping-bag footer_logo-icon"></i>e-shopper
+            </a>
+
+            <p class="footer_description">Enjoy the biggest sale <br>of your life.</p>
+
+            <div class="footer_social">
+               <a href="#" class="footer_social-link"><i class="bx bxl-facebook"></i></a>
+               <a href="#" class="footer_social-link"><i class="bx bxl-instagram-alt"></i></a>
+               <a href="#" class="footer_social-link"><i class="bx bxl-twitter"></i></a>
+            </div>
+         </div>
+
+         <!-- footer content 2 -->
+         <div class="footer_contnt">
+            <h3 class="footer_title">About</h3>
+
+            <ul class="footer_links">
+               <li><a href="#" class="footer_link">About Us</a></li>
+               <li><a href="#" class="footer_link">Customer Support</a></li>
+               <li><a href="#" class="footer_link">Support Center</a></li>
+            </ul>
+         </div>
+
+
+         <!-- footer content 3 -->
+         <div class="footer_contnt">
+            <h3 class="footer_title">Our Services</h3>
+
+            <ul class="footer_links">
+               <li><a href="#" class="footer_links">Shop</a></li>
+               <li><a href="#" class="footer_links">Discounts</a></li>
+               <li><a href="#" class="footer_links">Shipping mode</a></li>
+            </ul>
+         </div>
+
+
+         <!-- footer content 4 -->
+         <div class="footer_contnt">
+            <h3 class="footer_title">Our Company</h3>
+
+            <ul class="footer_links">
+               <li><a href="#" class="footer_links">Register</a></li>
+               <li><a href="#" class="footer_links">Contact Us</a></li>
+               <li><a href="#" class="footer_links">About Us</a></li>
+            </ul>
+         </div>
+      </div>
+
+      <span class="footer_copy">&#169; Crypticalcode. All rights reserved</span>
+   </footer>
+
+   <a href="#" class="scollup" id="scroll-up">
+      <i class="bx bx-up-arrow scollup_icon"></i>
+   </a>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="color/swiper-bundle.min.js"></script>
+   <script src="Shirt.js"></script>
+</body>
+</html>
